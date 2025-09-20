@@ -22,6 +22,16 @@ node server/server.js
 npm install
 grunt watch
 ```
+
+### To create a distributable build
+
+```
+npm install
+npm run build
+```
+
+The compiled assets will be available in the `dist/` directory, including the
+client and signalling server files.
 Remember to update your signalling server IP in `main.js` to your local IP if running on a separate device.
 
 1. Open http://localhost:2013 in browser
